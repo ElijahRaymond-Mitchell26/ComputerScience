@@ -1,6 +1,5 @@
-num = input("Enter a number?\n>")
-num = int(num)
-print(num * 10)
-name = "Calugo"
-color = "Tan"
-print(name + " " + color)
+user_input1 = input("What is your favorite animal?")
+user_input2 = input("Why is that your favorite animal?")
+user_input3 = input("Are you sure bro?")
+user_input4 = input("Are you really sure?")
+print("What is your favorite animal? " + user_input1 + " Why is that your favorite animal? " + user_input2 + " Are you sure bro? " + user_input3 +  " Are you really sure? " + user_input4)
